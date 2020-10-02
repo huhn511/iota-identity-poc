@@ -1,0 +1,17 @@
+[package]
+name = "iota-identity-poc"
+version = "0.1.0"
+authors = ["huhn511 <sehe89@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+identity_core = { git = "https://github.com/iotaledger/identity.rs", branch = "dev"}
+identity_vc = { git = "https://github.com/iotaledger/identity.rs", branch = "dev"}
+identity_common = { git = "https://github.com/iotaledger/identity.rs", branch = "dev"}
+
+
+# server
+actix-web = "3.1.0"
+env_logger = "0.7"
